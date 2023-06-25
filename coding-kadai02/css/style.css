@@ -1,0 +1,114 @@
+html {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 834px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+body {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (max-width: 834px) {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.google-fonts {
+  font-family: "Helvetica Neue", Arial, "Hiragino Sans", "Meiryo", sans-serif;
+}
+
+.contener {
+  display: flex;
+}
+@media screen and (max-width: 834px) {
+  .contener {
+    display: block;
+  }
+}
+.contener .img {
+  width: 100%;
+}
+.contener .texts {
+  width: 100%;
+  padding: 2.2rem 5% 0;
+}
+.contener .texts h1 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+.contener .texts p {
+  font-size: 0.8rem;
+}
+.contener .texts .sub-title {
+  font-weight: bold;
+  margin: 2.5rem 0 1rem;
+  padding: 0 0 0.4rem;
+  border-bottom: solid lightgray 1px;
+}
+.contener .texts dl {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contener .texts dl dt {
+  font-size: 0.8rem;
+  width: 50%;
+  border-bottom: dotted lightgray 1px;
+  padding: 0.4rem;
+  font-weight: normal;
+}
+.contener .texts dl dd {
+  font-size: 0.8rem;
+  text-align: end;
+  width: 50%;
+  border-bottom: dotted lightgray 1px;
+  padding: 0.4rem;
+}
+.contener .texts li {
+  font-size: 0.8rem;
+  border-bottom: dotted lightgray 1px;
+  padding: 0.4rem;
+  list-style-type: decimal;
+  margin-left: 1rem;
+}
+
+.button {
+  text-align: center;
+  margin: 4rem 0 4rem;
+}
+.button a {
+  font-size: 0.7rem;
+  padding: 0.9rem 3rem;
+  border: solid 1px;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+footer ul li {
+  font-size: 0.6rem;
+  margin: 0 0.5rem;
+  border-bottom: solid 1px;
+}
+footer p {
+  font-size: 0.6rem;
+}
